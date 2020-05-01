@@ -1,0 +1,18 @@
+body {
+  background-image: url(background.jpg);
+  background-size: cover;
+  background-position: top;
+
+  font-family: sans-serif;
+}
+
+.NavBar-items {
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  padding: 20px 0px;
+  font-size: larger;
+}
+.NavBar {
+  background-color: green;
+}
