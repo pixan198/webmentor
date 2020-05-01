@@ -2,7 +2,6 @@ body {
   background-image: url(background.jpg);
   background-size: cover;
   background-position: top;
-
   font-family: sans-serif;
 }
 
@@ -15,4 +14,17 @@ body {
 }
 .NavBar {
   background-color: green;
+}
+.NavBar-items li a {
+  text-decoration: none;
+  color: white;
+}
+
+.NavBar li {
+  padding: 10px;
+}
+.active,
+.NavBar li:hover {
+  background-color: #2bab0d;
+  border-radius: 3px;
 }
