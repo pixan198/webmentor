@@ -1,0 +1,74 @@
+body {
+  background-image: url(background.jpg);
+  background-size: cover;
+  background-position: top;
+  font-family: sans-serif;
+}
+
+.NavBar-items {
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  padding: 20px 0px;
+  font-size: larger;
+}
+.NavBar {
+  background-color: green;
+}
+.NavBar-items li a {
+  text-decoration: none;
+  color: white;
+}
+
+.NavBar li {
+  padding: 15px;
+}
+.active,
+.NavBar ul li:hover {
+  background-color: #2bab0d;
+  border-radius: 3px;
+}
+.NavBar .fa {
+  margin-right: 8px;
+}
+.SubMenu {
+  display: none;
+}
+.NavBar ul li:hover .SubMenu {
+  display: block;
+  position: absolute;
+  background: rgb(0, 100, 0);
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.NavBar ul li:hover .SubMenu ul {
+  display: block;
+  margin: 10px;
+}
+.NavBar ul li:hover .SubMenu ul li {
+  width: 140px;
+  padding: 10px;
+  text-align: center;
+  background: transparent;
+  border-bottom: 1px dotted #fff;
+  border-radius: 0;
+}
+.NavBar ul li:hover .SubMenu ul li:last-child {
+  border-bottom: none;
+}
+.NavBar ul li:hover .SubMenu ul li a:hover {
+  color: #b2ff00;
+}
+.fa-angle-right {
+  float: right;
+}
+.SubMenu2 {
+  display: none;
+}
+.hover-me:hover .SubMenu2 {
+  position: absolute;
+  display: block;
+  background: rgb(0, 100, 0);
+  margin-top: -20px;
+  margin-left: 140px;
+}
