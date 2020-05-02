@@ -1,0 +1,82 @@
+<html>
+  <head>
+    <title>
+      Registration Page
+    </title>
+
+    <style type="text/css">
+      .lin{
+        line-height: 3;
+      }
+      .cent{
+        text-align: center;
+        padding-top: 50px;
+        font-style: italic;
+        padding-bottom: 50px;
+      }
+
+      .pad{
+        padding-left: 450px;
+      }
+
+      body{
+        background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRI3Ppm_OKIHROCMVqmRoyzOy96suNTWzzYgC1vkN84o557HqtY&usqp=CAU);
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      label{
+        font-size: 20px;
+      }
+      .in{
+        width: 200px;
+        height: 35px;
+        text-align: center;
+      }
+      button{
+        width: 200px;
+        height: 40px;
+        background-color: green;
+        border-radius: 10px;
+        margin-left: 250;
+        margin-top: 80px;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+      <h1 class="cent">Register for Webmentor</h1>
+      <div class="pad lin">
+        <label>First Name: <input class="in" type="text" placeholder="Komal" required></label>
+        <label>Last Name: <input class="in" type="text" placeholder="Pawar" required></label>
+      </div>
+
+      <div class="pad lin">
+        <label>Email: <input type="email" class="in" placeholder="xyz@gmail.com" required></label>
+      </div>
+
+        <div class="pad lin">
+            <label>Mobile: <input type="number" class="in" required></label>
+        </div>
+
+      <div class="pad lin">
+        <label>Date of Birth: <input type="Date" class="in" required></label>
+      </div>
+
+      <div class="pad">
+        <h2>Do you want to participate as Mentor or Mentee?</h2>
+        <div>
+          <label><input type="radio" name="choice" required>Mentor</label>
+        </div>
+        <div class="lin">
+          <label><input type="radio" name="choice" required>Mentee</label>
+        </div>
+      </div>
+      <div class="pad lin">
+        <button type="submit">Register</button>
+      </div>
+    </form>
+     
+      
+  </body>
+</html>

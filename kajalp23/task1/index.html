@@ -1,0 +1,79 @@
+<html>
+  <head>
+    <title>
+      Registration form
+    </title>
+    <style type="text/css">
+      body{
+        line-height: 35px;
+        background-image: url('https://wallpaperaccess.com/full/1162901.jpg')
+      
+      }
+      .main{
+        padding-left: 200px;
+        font-weight: bold;
+
+      }
+      label, #newid{
+        font-size: 20px;
+      }
+      #add{
+        width:300px;
+      }
+      input{
+        text-align:center;
+      }
+      .new{
+        padding-left: 150px;
+      }
+      button
+      {
+        border-radius: 10px;
+        background-color: green;
+        width:100px;
+        height:40px;
+        margin-top: 50px;
+        margin-left: 150px;
+      }
+    </style>
+    
+  </head>
+  <body>
+  <form>
+    <div class="main">
+    <h1><i>Music School Registration</i></h1>
+    <h4>Register to our school from below</h4>
+    </div>
+    <hr>
+    <div class="main">
+    <label>Name:
+      <input type="text" placeholder="First Name" required>
+      <input type="text" placeholder="Last Name" required>
+    </label>
+    <p>
+    <label>Birth Date:
+        <input type="date" required>
+    </label>
+    </p>
+    <label>Address:
+      <input type="text" id="add" required>
+    </label>
+    <p>
+    <label>Choice of instrument:
+      <input type="text" placeholder="instrument" required>
+    </label>
+    </p>
+    <div id="newid">Pick days for classes:
+      <div class="new"><input type=radio required>Monday</div>
+      <div class="new"><input type=radio required>Tuesday</div>
+      <div class="new"><input type=radio required>Wednesday</div>
+      <div class="new"><input type=radio required>Thursday</div>
+      <div class="new"><input type=radio required>Friday</div>
+      <div class="new"><input type=radio required>Saturday</div>
+      <div class="new"><input type=radio required>Sunday</div>
+    </div>
+    <button type="submit">REGISTER</button>
+  </div>
+</form>
+  </body>
+</html>
