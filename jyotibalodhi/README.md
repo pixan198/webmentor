@@ -1,4 +1,4 @@
-#Submission of Task 1 'Web Mentor Program'
+#Submission of Tasks for 'Web Mentor Program'
 
 This file contains the task 1 i.e. the HTML form 
 Name: Jyoti Balodhi   
