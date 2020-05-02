@@ -1,3 +1,3 @@
-# Tribute to a person
+# Tribute to a person who inspires me
 
 - Madhav Bahl
