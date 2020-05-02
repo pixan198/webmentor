@@ -3,7 +3,7 @@ body{
 }
 .Img-main{
   display: flex;
-  justify-content: center;
+  justify-content:flex-end;
 }
 
  .Img-0{
@@ -21,6 +21,7 @@ body{
 .Img-collage > *{
   width:23.6vw;
   height:50vh;
+  margin-top: 5px;
   margin-bottom:5px;
 }
 .Desc{
@@ -41,7 +42,7 @@ body{
 .About{
   border-radius: 20px;
   position: absolute;
-  top:20%;
+  top:30%;
   color:#282C37;
   max-width: 80vw;
   left:10%;
