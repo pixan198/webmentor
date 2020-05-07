@@ -8,5 +8,11 @@ qnButton = document.querySelector(".Img-question")
 close = document.querySelector(".About-close")
 about = document.querySelector(".About")
 
-qnButton.addEventListener('click', () => about.style.display = "block")
-close.addEventListener('click', () => about.style.display = "none")
+qnButton.addEventListener('click', () => {
+  about.style.opacity=0.7;
+  about.style.visibility="visible"
+})
+close.addEventListener('click', () => {
+  about.style.opacity=0;
+  about.style.visibility="hidden"
+})

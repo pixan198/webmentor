@@ -48,9 +48,9 @@ body{
   left:10%;
   margin:auto;
   background-color: aliceblue;
-  opacity: 0.7;
   padding:5px;
-  display: none;
+  opacity:0;
+  transition: visibility 0s,opacity 0.5s linear;
 
 }
 .About-close{
@@ -58,11 +58,11 @@ body{
   background-color: red;
   color:white;
   font-weight: 900;
-  font-size: larger;
+  font-size: small;
   border-color: red;
   border-radius: 50%;
-  width:30px;
-  height:30px;
+  /* width:30px;
+  height:30px; */
   transition: transform .25s;
 
 }
