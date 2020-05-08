@@ -1,0 +1,110 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body
+ {
+    background-image: url(covid.jpg);
+    background-size: cover;
+    background-repeat: no-repeat ;
+    font-family: sans-serif;
+    background-position: center;
+    
+
+}
+.menu 
+{
+    background: darkolivegreen;
+    text-align: center;
+    font-size: 15px;
+}
+
+.menu ul
+ {
+    display: inline-flex;
+    list-style: none;
+    color: #fff;
+}
+.menu ul li 
+{
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+    
+}
+
+.active, .menu ul li:hover 
+{
+    background: yellowgreen;
+    border-radius: 3px;
+   
+    
+}
+
+.menu ul li a
+{
+    text-decoration: none;
+    color: rgb(250, 248, 248);
+}
+ .menu  .fa 
+ {
+     margin-right: 5px;
+ }
+ .submenu-1
+ {
+     display:none;
+ }
+ .menu  ul li:hover .submenu-1
+ {
+     display:block;
+     position: absolute;
+     background: rgb(58, 220, 241);
+     margin-top: 15px;
+     margin-left: -15px;
+     
+}
+.menu  ul li:hover .submenu-1 ul
+{
+    display:block;
+    margin: 10px;
+}
+.menu  ul li:hover .submenu-1 ul li
+{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted rgb(17, 15, 15);
+    background: transparent;
+    border-radius: 0px;
+    text-align: left;
+}
+.menu  ul li:hover .submenu-1 ul li:last-child
+{
+    border-bottom: none;
+}
+.menu  ul li:hover .submenu-1 ul li a:hover
+{
+    color: #b2ff00;
+}
+.fa-angle-right
+{
+    float:right;
+}
+.submenu-2,
+{
+    display: none;
+}
+
+.hover-me:hover .submenu-2
+{
+    position: absolute;
+    display: block;
+    margin-top: -40px;
+    margin-left: 140px;
+    background: rgb(129, 207, 3);
+}
+
+
+
+
