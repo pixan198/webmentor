@@ -1,0 +1,155 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.top{
+    background-color: black;
+    color: white;
+    height: 600px;
+
+    font-family: 'Pacifico', cursive;
+    
+}
+image{
+    width:100%;
+}
+.carousel-item{
+    padding: 200px;
+    
+}
+.carousel-control-prev{
+    color: black;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+
+  border-radius: 50%;
+  text-decoration: none;
+}
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    color: #00bfff;
+    text-decoration: none;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    
+    color: white;
+    padding: 100px;
+    margin: 100px;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    color: white;
+    padding: 100px;
+    margin: 100px;
+  }
+  .bottom{
+   
+        background-color: black;
+        color: white;
+        height: 600px;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Pacifico', cursive;
+        font-size: 100px;
+    
+  }
+  .navbar .logo{
+    align-self: flex-start;
+    background-color: red;
+    color: white;
+  }
+  .navbar a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:black;
+    background: turquoise;
+    height: 50px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+   
+  }
+  .navbar a:hover{
+    background: black;
+    color: white;
+  }
+  .navbar ul{
+    justify-content: flex-end;
+    list-style: none;
+    display: flex;
+    justify-content: stretch;
+  }
+  .navbar li{
+    position: relative;
+    width: 150px;
+    text-align: center;
+  }
+  .navbar li:hover .first > li{
+    display: block;
+    top: 0;
+    width: 150px;
+  }
+  .first li{
+    display: none;
+    position: relative;
+  }
+  .first{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+  }
+  .first li:hover .second li{
+    display: block;
+  }
+  .second li{
+    display: none;
+  }
+  .second{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: 150px;
+  }
+  .rotate{
+    transform: rotate(-30deg);
+    font-weight: bold;
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    margin-top: 140px;
+  }
+  #features{
+    margin-top: 40px;
+    text-align: center;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+}
+#features image{
+  size: 20px;;
+}
+.interest{
+font-size: 10px;
+}
+.code{
+  font-size: 10px;
+}
+.sport{
+  font-size: 10px;
+}
