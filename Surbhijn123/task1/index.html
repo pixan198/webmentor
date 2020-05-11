@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="description" content="Registartion Form" />
+	<title>Registration Form</title>
+</head>
+<body bgcolor="#FAECEC">
+	<div id="header">	
+		<h1>Home</h1>
+		<hr size="10" noshade>
+	</div>
+	<div id="content">
+		<form action="" method="post">
+			<!-- There are some attributes which are outdated in HTML5 , but i used them in this form just because i did not use CSS in it.!! -->
+			<table align="center" cellpadding="5" border="2" width="700"> 
+				<thead>
+					<th colspan="2">Registration Form</th>
+				</thead>
+				<tbody>
+					<tr>
+						<th align="left">
+							<label for="name">Username:</label>
+						</th>
+						<td>
+							<input type="text" name="username" id="name" placeholder="Enter username" required />
+						</td>
+					</tr>
+					<tr>
+						<th align="left">
+							<label for="password">Password:</label>
+						</th>
+						<td>
+							<input type="Password" name="password" id="password" placeholder="Enter password" maxlength="20" minlength="6"required /><br>
+							<span>Hint: (Minimum length 6 charcaters)</span>
+						</td>
+					</tr>
+					<tr>
+						<th align="left">
+							<label for="dob">Date Of Birth:</label>
+						</th>
+						<td>
+							<input type="date" name="dob" id="dob" required />
+						</td>
+					</tr>
+					<tr>
+						<th align="left">
+							<label for="address">Address:</label>
+						</th>
+						<td>
+							<textarea name="address" cols="20" rows="4" id="address" maxlength="255" minlength="10" required></textarea><br>
+							<span>Hint: (Maximum length 255 characters)</span>
+						</td>
+					</tr>
+					<tr>
+						<th align="left">Gender</th>
+						<td>
+							<input type="radio" name="gender" id="fgen" value="female" required />
+							<label for="fgen">Female</label>
+							<input type="radio" name="gender" id="mgen" value="male" required />
+							<label for="mgen">Male</label>
+						</td>	
+					</tr>
+					<tr>
+						<th align="left">Language Spoken:</th>
+						<td>
+							<input type="checkbox" name="lang[]" id="elang" value="english" />
+							<label for="elang">English</label>
+							<input type="checkbox" name="lang[]" id="hlang" value="hindi" />
+							<label for="hlang">Hindi</label>
+							<input type="checkbox" name="lang[]" id="flang" value="french" />
+							<label for="flang">French</label>
+						</td>	
+					</tr>
+					<tr>
+						<th align="left">
+							<label for="state">State:</label>
+						</th>
+						<td>
+							<select name="state" id="state" required>
+								<option value="">-- Select --</option>
+								<option value="rajasthan">Rajasthan</option>
+								<option value="uttar pradesh">Uttar Pradesh</option>
+								<option value="madhya pradesh">Madhya Pradesh</option>
+								<option value="punjab">Punjab</option>
+								<option value="bihar">Bihar</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<th align="left">
+							<label for="course">Course:</label>
+						</th>
+						<td>
+							<select name="course" id="course" required>
+								<option value="">-- Select --</option>
+								<option value="mca">MCA</option>
+								<option value="mtech">M Tech</option>
+								<option value="msc">MSC</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<th align="left">
+							<label for="proglang">Already Known Language:</label>
+						</th>
+						<td>
+							<select name="proglang" id="proglang" multiple="multiple" size="4" required>
+								<option value="c">C</option>
+								<option value="c++">C++</option>
+								<option value="java">Java</option>
+								<option value="php">PHP</option>
+								<option value="javascript">JavaScript</option>
+								<option value="asp.net">ASP.Net</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<th align="left">
+							<lable for="photo">Upload Photo</lable>
+						</th>
+						<td>
+							<input type="file" name="photo" id="photo" accept="image/*" required />
+						</td>
+					</tr>
+					<tr>
+						<td colspan="2">
+							<fieldset>
+								<legend>Contact Details</legend>
+								<label for="email">Email:</label><br />
+								<input type="email" name="email" id="email" placeholder="Enter email" required /><br />
+								<label for="mobileno">Mobile No:</label><br />
+								<input type="tel" name="mobileno" id="mobileno" placeholder="Enter mobile no" pattern="^\d{10}$" required /><span> Hint: (10 digit number)</span>
+							</fieldset>
+						</td>
+					</tr>
+					<tfoot>
+						<td colspan="2" align="center">
+							<input type="image" src="image/submit.jpg" alt="reset" >&nbsp;
+							<button type="reset" value="Reset" align="right">
+								<img src="image/clear.png" />
+							</button>	
+						</td>
+					</tfoot>
+				</tbody>
+			</table>
+		</form>
+	</div>
+	<div id="footer">
+		<hr size="10" noshade>
+			<span>&copy;</span>
+	</div>
+</body>
+</html>

@@ -1,0 +1,21 @@
+h3 {
+    text-align: center;
+}
+.container {
+    margin: 20px auto;
+    width: 300px;
+    background-color: #eee;
+    padding: 20px;
+  }
+ul {
+    list-style-type: none;
+}
+
+textarea {
+    width: 100%;
+    min-height:100px;
+  }
+  
+li {
+    margin-bottom: 5px;
+  }
