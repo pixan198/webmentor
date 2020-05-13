@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    background-color: #196caa;
+    width: 100%;
+  }
+  .navbar{
+    align-self: flex-start;
+    flex-wrap: wrap;
+    color: white;
+    width: 100%;
+    background-color: #193f59;
+    
+  }
+  .navbar a{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    color:#ebcbac;
+    background-color: #193f59;
+    height: 50px;
+    font-weight: bold;
+    text-decoration: none;
+    
+   
+  }
+  .navbar a:hover{
+    background: #ebcbac;
+    border: 1px;
+    border-style: solid;
+    border-color: #0c0c0c;
+    border-radius: 3px;
+    color:#196caa;
+  }
+  .navbar ul{
+    justify-content: flex-end;
+    list-style: none;
+    display: flex;
+    justify-content: stretch;
+  }
+  .navbar li{
+    position: relative;
+    width: 150px;
+    text-align: center;
+  }
+  .navbar li:hover .submenu1 > li{
+    display: block;
+    top: 0;
+    width: 150px;
+  }
+  .submenu1 li{
+    display: none;
+    position: relative;
+  }
+  .submenu1{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+  }
+  .submenu1 li:hover .submenu2 li{
+    display: block;
+  }
+  .submenu2 li{
+    display: none;
+  }
+  .submenu2{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: 150px;
+  }
+  section{
+      text-align: center;
+      color: #ebcbac;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 5rem;
+      min-height: auto;
+  }
