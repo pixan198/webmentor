@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<style>
+    .styles1{
+        border-style:groove;
+        border-radius: 5px;
+        padding:10px 20px;
+        background-color: #002e4d;
+    }
+    .styles2{
+        border:solid ;
+        border-radius: 15px;
+        padding:15px 30px;
+        background-color:#00394d;
+        color:black;
+        font-size: medium;
+        margin: 5px 0;
+    }
+    .btn{
+        background-color: #004d00;
+        border: none;
+        padding:15px 30px;
+        border-radius:10px;
+        
+    }
+</style>
+<html>
+    <head>
+        <title>Registration Form</title>
+    </head>
+    <body>
+        
+        <form class="styles1"> 
+            <p style="text-align: center; color: honeydew;">Registration form</p>
+            <div class="styles2">
+                <label>First name:</label>
+                <input type="text" name="firstname" size="20" placeholder="first name"><br>
+                <label>Middle name</label>
+                <input type="text" name="middlename" size="20" placeholder="middle name"><br>
+                <label>Last name</label>
+                <input type="text" name="lastname" size="20" placeholder="last name"> <br>
+                <label>Gender</label><br>
+                <input type="radio" name="male">Male<br>
+                <input type="radio" name="female">Female<br>
+                <input type="radio" name="other">Other<br>
+            </div>
+
+            <div class="styles2">
+                <label>College name</label>
+                <input type="text" name="college" size="20" placeholder="College"><br>
+                <label>Course</label>
+                <input type="text" name="course" size="20" placeholder="B.tech"><br>
+                <label>email</label>
+                <input type="text" name="email" size="20" placeholder="xyz@abc.com"><br>
+                <label>Mobile number:</label>
+                <input type="text" name="country code" size="4" placeholder="+91">
+                <input type="text" name="number" size="10" placeholder="12345678"><br>
+            </div>
+            <input class="btn" type="button" value="Submit" style="justify-content: center;">   
+        </form>
+    </body>
+</html>
