@@ -1,0 +1,21 @@
+body
+{
+    background-image: url(img1.jpg);
+    background-size: cover;
+}
+.countdownContainer 
+{
+    position: absolute;
+    background: #334455;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    border: 1px solid #999;
+    padding: 10px;
+    box-shadow: 0 0 5px 3px #ccc;
+    transform: translateX(-50%) translateY(-50%);
+}
+.info
+{
+    font-size: 80px;
+}
