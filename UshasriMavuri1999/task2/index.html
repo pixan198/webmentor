@@ -1,0 +1,222 @@
+<html>
+<head>
+  <title>MotherTeresa - TributePage</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<style>
+#main {
+  /* variables */
+  --content-background: hsl(51, 40%, 96%);
+  --contrast-background: hsl(51, 40%, 87%);
+  
+  margin: 10px;
+  background-color: var(--content-background, gray);
+  display: flex;
+  flex-direction: column;
+}
+.navbar {
+  border-radius: 10px;
+  overflow: hidden;
+  background-color:grey;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: black;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(156, 156, 156, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+header {
+  background-color: var(--contrast-background, gray);
+  border-radius: 10px;
+}
+
+h1 {
+  margin-top: 10px;
+}
+
+#title {
+  text-align: center;
+  padding: 10px;
+}
+
+main {
+  background-color: var(--content-background, gray);
+}
+
+#main-content {
+  max-width: 600px;
+  margin: auto;
+}
+
+footer {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  background-color: var(--contrast-background, gray);
+  border-radius: 10px;
+}
+
+#footer-content {
+  margin: auto;
+  max-width: 800px;
+  text-align: center;
+}
+
+.text-content {
+  text-align: justify;
+}
+
+li {
+  margin-top: 10px;
+}
+
+#image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+
+time {
+  font-weight: bold;
+}
+
+#image-label {
+  text-align: center;
+  font-size: 15px;
+}
+
+#tribute-link:hover {
+  color: hsl(220, 88%, 60%);
+}
+
+#tribute-link {
+  color: hsl(220, 57%, 42%);
+}
+
+</style>
+<body id='main'>
+  <div class="navbar">
+  <a href="#">Home</a>
+  <a href="#time-line-list">Awards</a>
+  <div class="dropdown">
+    <button class="dropbtn">Patronage 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="https://en.wikipedia.org/wiki/World_Youth_Day" target="_blank">World Youth Day</a>
+      <a href="https://en.wikipedia.org/wiki/Missionaries_of_Charity" target="_blank">Missionaries of Charity</a>
+      <a href="https://en.wikipedia.org/wiki/Archdiocese_of_Calcutta" target="_blank">Archdiocese of Calcutta </a>
+    </div>
+  </div> 
+</div>
+  <header>
+    <section id="title">
+      <h1>Mother Teresa</h1>
+      <h2 id="tribute-info">Saint Teresa of Calcutta</h2>
+      <div id="img-div">
+        <img src="motherteresa.jpg" id="image"alt="MotherTeresa image">
+        <p for="image" id="image-label"><em>
+          It is not how much we do,
+          but how much love we put in the doing.
+          It is not how much we give,
+          but how much love we put in the giving</em></p>
+      </div>
+    </section>
+  </header>
+  
+  <main>
+    <div id="main-content">
+      <article id="time-line">
+        <p> <span style="font-weight: bolder;font-size: xx-large;">M</span>other Teresa (1910-1997) was a Roman Catholic nun, who devoted her life to serving the poor
+          and destitute around the world. She spent many years in Calcutta, India where she founded the
+          Missionaries of Charity, a religious congregation devoted to helping those in great need. In 1979,
+          Mother Teresa was awarded the Nobel Peace Prize and has become a symbol of charitable
+          selfless work. She was beatified in 2003, the first step on the path to sainthood, within the
+          Catholic church.</p>
+        <h2>Awards Mother Teresa:</h2>
+        <ul id="time-line-list" class="text-content">
+          <li><time datetime="1971">1971</time> - The first Pope John XXIII Peace Prize. </li>
+          <li><time datetime="1971">1971</time> - Kennedy Prize </li>
+          <li><time datetime="1972">1972</time> - The Nehru Prize –“for promotion of international peace and understanding”</li>
+          <li><time datetime="1975">1975</time> - Albert Schweitzer International Prize</li>
+          <li><time datetime="1979">1979</time> - The Nobel Peace Prize</li>
+          <li><time datetime="1985">1985</time> - States Presidential Medal of Freedom</li>
+          <li><time datetime="1994">1994</time> - Congressional Gold Medal</li>
+          <li><time datetime="1996">1996</time> - Honorary citizenship of the United States</li>
+          
+        </ul> 
+      </article>
+      <hr/>
+      <article id="tribute" class="text-content">
+        <p><em>"Whatever you do to the least of my brethren, you do it to me."</em></p>
+        <p><em>"Love cannot remain by itself — it has no meaning. Love has to be put into action, and that
+          action is service ."</em></p>
+        <p><em>"Not all of us can do great things. But we can do small things with great love.”"</em></p>
+        <P><em>"The hunger for love is much more difficult to remove than the hunger for bread"</em></P>
+        <p><em>"Go home and love your family"</em></p>
+        <p>-- Mother Teresa</p>
+      </article>
+      <hr/>
+    </div>
+  </main>
+  
+  <footer>
+    <div id="footer-content">
+      <secion>If you have time, you should read more about this incredible human being on his <a href="https://en.wikipedia.org/wiki/Mother_Teresa" id="tribute-link" target="_blank">Wikipedia entry</a>.
+      </section>
+    </div>
+  </footer>
+</body>
+</html>

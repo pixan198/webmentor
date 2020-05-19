@@ -1,0 +1,119 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h5 {
+    letter-spacing: 3px;
+    line-height: 30px;
+}
+p {
+    line-height: 26px;
+    font-size: 14px;
+}
+.section {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+/* Nav and Intro */
+nav,.intro {
+    background-color: #87509c;
+}
+
+nav ul a:hover,nav ul li.active,.sidenav li.active{
+    background-color: #643a79;
+}
+.intro p {
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+    line-height: 120%;
+}
+/* End Nav and End Intro */
+
+/************* Services *************/
+.services {
+    background-color: #17c2a4;
+    text-align: center;
+    color: white;
+}
+.subtitle {
+    font-size: 17px;
+    line-height: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+/************* End Services *************/
+
+/************* Team *****************/
+.team {
+    background-color: #e7f1f8;
+    text-align: center;
+}
+.qualification {
+    font-size: 12px;
+    letter-spacing: 0px;
+    color: #30bae7;
+    font-weight: 400;
+}
+.social {
+ background-color: #bdd1df;
+}
+/************ End Team ****************/
+
+/************ Portfolio ************/
+.portfolio {
+    background-color: #ffdd99;
+}
+.tabs .tab a{
+    color:#000;
+} 
+.tabs .tab a:hover {
+    background-color:#fff3e0 ;
+    color:#000 ;
+}
+.tabs .tab a.active {
+    background-color:#ffcc80 ;
+    color:#000;
+} 
+.tabs .indicator {
+    background-color:#000  ;
+} 
+.portfolio .row .col.s12 .l4 {
+  
+}
+/************ End Portfolio ************/
+
+/************* Testimonials *************/
+.testimonials {
+    background-color: #d74680;
+    color: white;
+}
+.testimonials .detail {
+    line-height: 31px;
+    font-style: italic;
+    color:#eeeeee;
+    font-size: 14px;
+}
+.testimonials .work {
+    letter-spacing: 0px;
+    line-height: 26px;
+    color: #ffdd99;
+}
+/************* End Testimonials *************/
+
+/************* Footer *************/
+.page-footer {
+    background-color: #3c5499;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.submit {
+    background-color: #30bae7;
+    color: white;
+}
+.footer-copyright a{
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: #ffffff;
+    padding-top: 15px;
+}
+/************* End Footer *************/

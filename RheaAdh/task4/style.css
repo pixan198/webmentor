@@ -1,0 +1,26 @@
+*{
+    text-align: center;
+    
+}
+body{
+    background-image: linear-gradient(to right, red , yellow);
+    padding: 100px;
+
+}
+#pomodoro{
+    
+    font-size: 6em;;
+}
+button{
+    color: white;
+    font-size: 1em;
+    background-color: grey;
+    border-radius: 50%;
+    padding: 15px;
+    margin: 10px;
+    border: black;
+}
+h1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 3em;
+}
