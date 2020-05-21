@@ -1,0 +1,72 @@
+body{
+	background-clip: border-box;
+	font-family: tisa;
+	background: #ddd6f3;  
+    background: -webkit-linear-gradient(to right, #faaca8, #ddd6f3); 
+    background: linear-gradient(to right, #faaca8, #ddd6f3); 
+    margin:0;
+    padding:0;
+}
+.image{
+	height:35px;
+	padding-right: 2px;
+}
+#cse{
+	height:300px;
+	width:600px;
+	padding-left: 100px;
+	padding-bottom: 20px;
+}
+li{
+	padding-left: 200px;
+}
+.navbar-brand{
+	padding-left: 200px;
+}
+
+h1{
+	letter-spacing:8px;
+	color:purple;
+	text-decoration:underline; 
+    border-bottom: : 0.2px solid #ff00ff;
+	text-shadow: 3px 3px 10px purple;
+	font-size: 45px;
+
+}
+h3{
+	padding: 10px 0 20px 30px;
+	font-size: 35px;
+	color:orangered;
+	text-decoration: underline;
+}
+
+#paragraph{
+	font-size:30px;
+	padding-left: 100px;
+	padding-bottom:20px;
+}
+.newpara{
+	padding-top: 70px;
+	padding-left: 45px;
+	font-size: 30px;
+	letter-spacing: 2px;
+}
+#new{
+	font-size:20px;
+	padding-right: 30px;
+	padding-bottom: 0;
+	
+}
+label{
+	padding: 100px 30px 0 0;
+	font-size:30px;
+	color:teal;
+}
+#dream{
+	outline-color: teal;
+	outline-style:groove; 
+}
+.iframe-container{
+	padding-left: 300px;
+	padding-top: 30px;
+}
