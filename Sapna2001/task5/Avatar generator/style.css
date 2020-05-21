@@ -1,0 +1,45 @@
+body{
+  background-color: yellow;
+  color: white;
+  text-align: center;
+  font-family: 'Balsamiq Sans', cursive;
+  font-size: 2rem;
+  font-weight: bold;
+}
+section{
+  background-color: black;
+  padding: 20px;
+  margin-left:20%;
+  margin-right:20%;
+  margin-top: 70px;
+  padding-bottom: 30px;
+}
+#nameid{
+  background-color: grey;
+  color: white;
+  border: none;
+  font-size: 1rem;
+  padding: 10px;
+  text-align: center;
+  font-family: 'Nunito', sans-serif;
+}
+::placeholder {
+  color: white;
+}
+.icon{
+  margin-top: 30px;
+}
+button{
+  background-color: grey;
+  color: white;
+  border: none;
+  font-size: 1rem;
+  padding: 10px;
+  text-align: center;
+  font-family: 'Nunito', sans-serif;
+  margin-top: 15px;
+  border-radius: 20px;
+}
+button:focus{
+    outline:none;
+}
