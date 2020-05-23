@@ -10,20 +10,25 @@ function template() {
 }
 
 function start() {
-    document.getElementById("play").disabled = true;
-    document.getElementById('add').disabled = true;
-    document.getElementById('sub').disabled = true;
 
-    min = min-1;
-    sec = 59;
-    
-    document.getElementById("min").innerHTML = min;
-    document.getElementById("sec").innerHTML = sec;
+    if(min!==0) {
+        document.getElementById("play").disabled = true;
+        document.getElementById('add').disabled = true;
+        document.getElementById('sub').disabled = true;
 
-    min_interval = setInterval(minTimer, 60000);
-    sec_interval = setInterval(secTimer, 1000);
-   
-    
+        
+        min = min-1;
+        sec = 59;
+        
+        document.getElementById("min").innerHTML = min;
+        document.getElementById("sec").innerHTML = sec;
+
+        min_interval = setInterval(minTimer, 60000);
+        sec_interval = setInterval(secTimer, 1000);
+    }
+    else {
+        stop();
+    }
           
 }
 
@@ -74,6 +79,8 @@ function add() {
 }
 
 function sub() {
+    if(min!=0) {
     min = min - 1;
     document.getElementById("min").innerHTML = min;
+    }
 }
