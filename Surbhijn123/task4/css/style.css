@@ -1,0 +1,29 @@
+body {
+    background-image: linear-gradient(to left,grey, white);
+}
+.container {
+    padding:0.25rem;
+    margin-top: 45px;
+}
+.row {
+    margin-bottom: 4px;
+}
+.row .col {
+    padding: 0 .25rem;
+}
+.btn {
+    height: 70px;
+    width: 100%;
+    border-radius: 2px;
+    font-size: 17px;
+}
+input[type="text"] {
+    border-bottom: none!important;
+    
+}
+#result {
+    font-size: 20px;
+}
+
+
+
