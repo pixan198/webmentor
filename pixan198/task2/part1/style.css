@@ -5,7 +5,10 @@
   }
   body {
     background-color: #196caa;
-    width: 100%;
+	width:100%;
+	height:100%;
+	display:grid;
+   
   }
   .navbar{
     align-self: flex-start;
@@ -77,9 +80,15 @@
     width: 150px;
   }
   section{
-      text-align: center;
+	  margin:auto;
+	  display:flex;
+      justify-content:center;
+	  align-items:center;
       color: #ebcbac;
       font-family: Arial, Helvetica, sans-serif;
-      font-size: 5rem;
+      font-size: 3rem;
       min-height: auto;
+  }
+  h1{
+	  text-align:center;
   }
