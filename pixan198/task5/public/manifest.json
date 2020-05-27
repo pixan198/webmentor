@@ -1,0 +1,25 @@
+{
+  "short_name": "COVID19 Tracker",
+  "name": "Track COVID19 cases",
+  "icons": [
+    {
+      "src": "corona256.jpg",
+      "sizes": "256x256",
+      "type": "image/jpg"
+    },
+    {
+      "src": "favicon.png",
+      "type": "image/png",
+      "sizes": "16x16"
+    },
+    {
+      "src": "favicon.svg",
+      "type": "image/svg",
+      "sizes": "64x64"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
