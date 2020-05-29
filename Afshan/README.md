@@ -1,0 +1,4 @@
+- Name: Afshan Ahmed
+- Email: afshanahmed18@gmail.com
+- GitHub: Alaska18
+- LinkedIn: https://www.linkedin.com/in/afshana18/

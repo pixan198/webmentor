@@ -1,0 +1,49 @@
+.flex{
+    display: flex;
+   
+}
+.flex-1{
+    flex:1;
+}
+.flex-column{
+    flex-direction: column;
+}
+.flex-wrap{
+    flex-wrap: wrap;
+}
+.flex-rev-wrap{
+    flex-wrap: wrap-reverse;
+}
+.items-center{
+    align-items: center;
+}
+.justify-between{
+    justify-content: space-between;
+}
+
+.btn{
+    padding: 0.8rem 3rem;
+    font-weight: 600;
+    font-size: 1rem;
+    border:2px solid transparent;
+    outline: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: all .3s ease;
+}
+
+
+
+.btn-primary{
+    
+    border:2px solid var(--pure);
+    background:var(--pure);
+    color: var(--dark);
+
+}
+
+.btn-primary:hover{
+    
+    background: var(--dark);
+    color: var(--pure);
+}

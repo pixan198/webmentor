@@ -1,0 +1,48 @@
+body{
+	background-clip: border-box;
+	font-family: tisa;
+    background-image: url(https://lh3.googleusercontent.com/proxy/k-WeNXqTjWi25IXh_qYef7c4bGEbn-YNzYqyj568yde5swchDNJKjyOXlmwQu0RVKkvQqi3lcsHfUGnMfwnEWha6an4_UeyAT69_8b0JUfjk78sCcw96ziJM);
+    background-repeat:no-repeat;
+	background-size: cover;
+    margin:0;
+    padding:0;
+}
+.image{
+	height:35px;
+	padding-right: 2px;
+}
+li{
+	padding-left: 250px;
+}
+.navbar-brand{
+	padding-left: 200px;
+}
+
+.card-img-top{
+	height:220px;
+}
+
+h1{
+	letter-spacing:8px;
+	color:purple;
+	text-decoration:underline; 
+    border-bottom: : 0.2px solid #ff00ff;
+	text-shadow: 3px 3px 10px purple;
+	font-size: 45px;
+    padding-top: 30px;
+}
+h3{
+	padding: 30px 0 60px 30px;
+	font-size: 35px;
+	color:orangered;
+	text-decoration: underline;
+}
+.card-deck{
+	padding:0 30px;
+}
+.card-title{
+	text-align:center;
+	letter-spacing: 2px;
+	font-weight: normal;
+}
+

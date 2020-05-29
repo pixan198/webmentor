@@ -1,0 +1,100 @@
+body {
+    margin : 1% 2% 2% 1%;
+    color : white;
+    box-sizing : border-box;
+}
+
+.nav-bar {
+    background-color: rgb(180, 34, 34, 0.95);
+    width: 100%;
+    padding: 0;
+    border: 5px solid rgb(26, 9, 2);
+}
+
+
+ul {
+    list-style: none;
+}
+
+.list {
+    width: 100%;
+}
+
+.list >ul {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin: 0;
+}
+
+.list >ul >li {
+    float: left; 
+    display: block; 
+    padding: 18px;
+    position: relative;
+    margin: 0 10% 0 0;
+    font-size: 20px;
+}
+
+.sublist1 >ul >li {
+    float: left; 
+    width: 200%;
+    position: relative;
+    padding: 20px 22px 20px 22px;
+    margin-left:-100px;
+    font-size: 20px;
+    border-left: 5px solid black;
+    border-right: 5px solid black;
+    text-align: center;
+    background-color: rgb(180, 34, 34, 0.95);
+}
+
+.sublist1 > ul> li:hover {
+    background-color: lightsalmon;
+}
+
+.sublist1>ul {
+    display: none;
+    margin-top: 23px;
+    position: absolute;
+}
+
+.list> ul> li:hover {
+    background-color: lightsalmon;
+}
+
+.list > ul > li:hover .sublist1>ul{
+   display: block;
+}
+
+
+
+.sublist2 >ul >li {
+    float: left; 
+    width: 100px;
+    position: relative;
+    font-size: 20px;
+    margin-left: 95px;
+    padding: 20px;
+    border-left: 5px solid black;
+    border-right: 5px solid black;
+    text-align: center;
+    background-color: rgb(180, 34, 34, 0.95);
+}
+
+.sublist2 > ul> li:hover {
+    background-color: lightsalmon;
+}
+
+.sublist2>ul {
+    display: none;
+    position: absolute;
+    margin-top: -42.5px;
+    
+
+
+}
+
+.sublist1 > ul > li:hover .sublist2>ul{
+   display: block;
+}

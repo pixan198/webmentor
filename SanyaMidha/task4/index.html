@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sister's Birthday Countdown</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <table class="countdownContainer">
+      <tr class="info">
+        <th colspan="4">Siso Birthday in:</th>
+      </tr>
+      <tr>
+        <td id="days">-</td>
+        <td id="hours">-</td>
+        <td id="minutes">-</td>
+        <td id="seconds">-</td>
+      </tr>
+      <tr>
+        <td>Days</td>
+        <td>Hours</td>
+        <td>Minutes</td>
+        <td>Seconds</td>
+      </tr>
+    </table>
+    <script type="text/javascript">
+      let birthDayMonth = 06; // change the desired date here.
+      let birthDayDate = 21; // change the desired date here.
+      let funcId = setInterval(function () {
+        const now = new Date();
+
+        // this is just declared to check later on whether birthday is passed.
+        const thisYearsBirthday = new Date(
+          now.getFullYear(),
+          birthDayMonth - 1, // leave it.
+          birthDayDate
+        );
+
+        let birthdayYear = now.getFullYear(); // store current birthday year.
+
+        if (thisYearsBirthday - now < 0) {
+          // here we checks, if the birthday has passed, increase the year to display days remaining in next year
+          birthdayYear = now.getFullYear() + 1;
+        }
+        const nextBirthday = new Date(
+          birthdayYear,
+          birthDayMonth - 1, // leave it.
+          birthDayDate
+        );
+        const differenceInMilliseconds = nextBirthday - now;
+        const days = Math.floor(
+          differenceInMilliseconds / (1000 * 60 * 60 * 24)
+        );
+        const hours = Math.floor(
+          (differenceInMilliseconds / (1000 * 60 * 60)) % 24
+        );
+        const minutes = Math.floor((differenceInMilliseconds / 1000 / 60) % 60);
+        const seconds = Math.floor((differenceInMilliseconds / 1000) % 60);
+
+        document.getElementById('days').innerText = days;
+        document.getElementById('hours').innerText = hours;
+        document.getElementById('minutes').innerText = minutes;
+        document.getElementById('seconds').innerText = seconds;
+      }, 1000);
+    </script>
+  </body>
+</html>
