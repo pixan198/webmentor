@@ -1,0 +1,303 @@
+@import 'utilities.css';
+:root{
+
+    --primary:rgb(33, 99, 160);
+    --dark:black;
+    --pure:yellow;
+    --ternary:rgb(107, 106, 106);
+    --light:white;
+    
+}
+body{
+    font-family: 'Poppins',sans-serif;
+    background-color:var(--ternary);
+    min-width: fit-content;
+
+    
+   
+}
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+span{
+    color: var(--pure);
+}
+header{
+    background: var(--dark);
+    
+    
+}
+
+section.about{
+    background-color:var(--light);
+    padding: 2rem 5rem;
+    
+}
+
+section.Skills{
+    
+    background-color: var(--dark);
+    
+    color: var(--light);
+   
+}
+.skills{
+   
+    display: block;
+    margin: 200px;
+}
+
+.container{
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 10px;
+}
+
+
+@media (min-width: 576px){
+    .container{
+        max-width: 540px;
+    }
+}
+
+@media (min-width: 768px){
+    .container{
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 992px){
+    .container{
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 1200px){
+    .container{
+        max-width: 1152px;
+    }
+}
+@media (max-width:1024px){
+
+
+    header #main-nav{
+        display: none;
+    }
+    header .Home .left img{
+        width: 270px;
+        height: 270px;
+    }
+    
+    section .about .container img {
+        height: 364px;
+        width: 262px;
+    }
+}
+
+
+
+.Skills h1{
+    margin-left: 200px;
+    margin-bottom: -100px;
+}
+.skills li{
+    border: solid var(--pure);
+    margin: 25px;
+    
+    transition: all .3s ease;
+}
+.skills h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.skills li:hover{
+    background-color: var(--pure);
+    color: var(--dark);
+    cursor: pointer;
+}
+
+
+header nav .left a{
+    color: var(--light);
+    text-decoration: none;
+    margin-right: 2rem;
+    text-transform: uppercase;
+    transition: all .3s ease;
+
+}
+header nav .left a:hover{
+    color: var(--pure);
+}
+header nav{
+    padding: 2rem 0;
+}
+header nav .logo{
+    margin-right: 3rem;
+}
+
+.Home .left img{
+ 
+    height: 480px;
+    width: 450px;
+    border-radius: 50px;
+    padding: 1rem 1rem;
+  
+}
+.Home .right img{
+    width: 120px;
+}
+
+.Home .right{
+    margin-top: -3rem;
+    padding: 100px;
+    color: var(--light);
+}
+.strong{
+    font-size: 15px;
+
+}
+
+
+
+section{
+    
+
+    align-items: center;
+    padding: 10rem 0;
+}
+
+.about .container img{
+    height: 380px;
+    width: 250px;
+    border: solid var(--ternary);
+    border-width: 6px;
+    border-radius: 25px;
+
+}
+
+
+section.about h1{
+    margin-bottom: 1rem;
+    font-size: 1.6rem;
+
+}
+section.about span{
+    color: var(--dark);
+}
+
+section.about p{
+    line-height: 2rem;
+}
+
+.social{
+display: flex;
+
+
+
+}
+.social a{
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+    color: var(--dark);
+    height: 40px;
+    width: 40px;
+    border-radius: 10px;
+    margin-right: 1.5rem;
+    transition: all .3s ease;
+
+
+}
+
+.social a:hover{
+    background: rgba(75, 74, 74, 0.479)
+}
+
+.Contact{
+    font-size: 1rem;
+ 
+    background-color: var(--light);
+}
+.text{
+    font-size: 1.5rem;
+}
+
+.site-main-wrapper{
+    position: relative;
+}
+
+.ham{
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    z-index: 11;
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: var(--light);
+}
+
+
+.mobile-nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1001;
+    background: var(--light);
+    width: 100%;
+    height: 100%;
+    padding: 10rem;
+    padding-top: 5rem;
+    
+    transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+    -moz-transform: translateX(-100%);
+    -ms-transform: translateX(-100%);
+    -o-transform: translateX(-100%);
+    transition: all .5s ease-in-out;
+
+}
+
+.open{
+    transform: translateX(0);
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -o-transform: translateX(0);
+
+}
+
+
+.times{
+    position: fixed;
+    top: 30px;
+    right: 30px;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.mobile-nav ul{
+
+    list-style-type: none;
+
+}
+.mobile-nav ul li a{
+    color: var(--dark);
+    text-decoration: none;
+    font-size: 2rem;
+}

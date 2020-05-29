@@ -1,0 +1,27 @@
+body{
+	background-clip: border-box;
+	background-image: url(https://st4.depositphotos.com/2024219/19702/i/1600/depositphotos_197025472-stock-photo-beautiful-chef-woman-holding-trophy.jpg);
+	background-repeat:no-repeat;
+	background-size: cover;
+	font-family: tisa; 
+    margin:0;
+    padding:0;
+}
+ul .nav-item{
+	padding-left: 200px;
+}
+.navbar-brand{
+	padding-left: 200px;
+}
+#newul{
+	list-style:none;
+	line-height: 20px;
+}
+.newli{
+	font-size: 30px;
+	letter-spacing: 2px;
+	line-height: 105px;
+}
+img{
+	height:35px;
+}

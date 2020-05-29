@@ -1,0 +1,292 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(100, 36, 36);
+    color: rgb(75, 73, 73) ;
+    display: flex;
+    flex-flow: wrap;
+    font-family: sans-serif;
+    justify-content:center;
+}
+
+.container{
+    background-color: rgb(250, 138, 10);
+    margin: 50px;
+    padding: 30px;
+    border-radius: 25px;
+    margin-bottom: 70px;
+    
+}
+.title{
+    text-align: center;
+}
+
+.status-action{
+
+    display: flex;
+    margin-top: 25px;
+    font: 25px;
+    justify-content: space-around;
+    height: 30px;
+}
+.reset{
+    cursor: pointer;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-tap-highlight-color: transparent;
+
+    
+}
+
+/*GAME*/
+.game-grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    grid-gap: 20px;
+    margin-top: 50px;
+    background: rgba(56, 55, 55, 0.267);
+ 
+
+    
+}
+.gamecell{
+    background-color: rgb(250, 138, 10);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    width: 150px;
+    cursor: pointer;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-tap-highlight-color: transparent;
+    
+}
+
+/*SPANS*/
+.title span{
+    color: bisque;
+}
+
+.status span{
+    color: bisque;
+}
+.credits span{
+    color: bisque;
+}
+
+
+/*HOVER EFFECTS FOR SUPPORTED DEVICES*/
+.reset:hover{
+    
+    color: bisque;
+    
+}
+
+.hover .changex:hover{
+    background-color: rgba(255, 228, 196, 0.747);
+        
+}
+
+.hover .changeo:hover{
+   
+    background-color: rgba(100, 36, 36, 0.753) ;
+    
+}
+
+.hover .x:hover{
+    background-color:bisque ;
+}
+.hover .o:hover{
+    background-color:rgb(100, 36, 36) ;
+}
+
+.hover .won:hover{
+    background-color: bisque;
+}
+
+
+/*PSEUDO ELEMENTS*/
+.x::after{
+    content: 'x';
+    font-size: 150px;
+}
+.o::after{
+    content: '○';
+    font-size: 200px;
+    color: bisque;
+}
+
+
+.won::after{
+    color:rgb(100, 36, 36);
+}
+
+
+
+
+/*NAME AND ICONS*/
+.credits
+{
+    background-color: rgb(100, 36, 36);
+
+    margin: 50px;
+    padding: 20px;
+    justify-content: center;
+    border-radius: 25px;
+    margin-bottom: 70px;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-tap-highlight-color: transparent;
+    
+}
+
+
+/*MEDIA QUERIES*/
+/*800px*/
+@media only screen and (max-width: 800px){
+   
+    .game-grid{
+        margin-top: 25px;
+        grid-gap: 15px;
+        size: 15px;
+        
+    }
+    .gamecell{
+        font-size: 150px;
+        width: 150px;
+    }
+
+    .x::after{
+        font-size: 150px;
+    }
+
+    .o::after{
+        font-size: 170px;
+    }
+    
+}
+
+/*600px*/
+@media only screen and (max-width: 600px){
+    .container{
+       
+        margin: 30px;
+        padding: 12px;
+
+        
+
+    }
+    .game-grid{
+        margin-top: 20px;
+        grid-gap: 10px;
+        size: 10px;
+    }
+    .gamecell{
+        height: 100px;
+        width: 100px;
+    }
+
+    .x::after{
+        font-size: 100px;
+    }
+
+    .o::after{
+        font-size: 115px;
+    }
+
+}
+
+
+/*450px*/
+@media only screen and (max-width: 450px){
+    .container{
+       
+        margin: 18px;
+        padding: 12px;
+
+        
+
+    }
+    .game-grid{
+        margin-top: 18px;
+        grid-gap: 8px;
+        size: 8px;
+    }
+    .gamecell{
+        height: 80px;
+        width: 80px;
+    }
+
+    .x::after{
+        font-size: 80px;
+    }
+
+    .o::after{
+        font-size: 95px;
+    }
+  
+}
+
+/*325px*/
+@media only screen and (max-width: 325px){
+    .container{
+       
+        margin: 15px;
+        padding: 12px;
+
+        
+
+    }
+    .game-grid{
+        margin-top: 14px;
+        grid-gap: 6px;
+        size: 6px;
+    }
+    .gamecell{
+        height: 70px;
+        width: 70px;
+    }
+
+    .x::after{
+        font-size: 75px;
+    }
+
+    .o::after{
+        font-size: 90px;
+    }
+  
+}
+
+/*245px*/
+
+@media only screen and (max-width: 245px){
+    .container{
+       
+        margin: 12px;
+        padding: 14px;
+
+        
+
+    }
+    .game-grid{
+        margin-top: 10px;
+        grid-gap: 4px;
+        size: 4px;
+    }
+    .gamecell{
+        height: 60px;
+        width: 60px;
+    }
+
+    .x::after{
+        font-size: 60px;
+    }
+
+    .o::after{
+        font-size: 85px;
+    }
+    
+}

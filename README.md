@@ -30,7 +30,7 @@ Read [CONTRIBUTING.md](./CONTRIBUTING.md) for guidelines.
 | Week 2 | CSS | Nav Bar and/or FCC tribute page | **Intermediate** |
 | Week 3 | MaterializeCSS | Build a landing page | **Advanced** |
 | Week 4 | JavaScript/DOM Manipulation | Countdown Timer and more | **Intermediate** |
-| Week 5 | API Calls | Coming Soon | **Advanced** |
+| Week 5 | API Calls | Make your own cool projects | **Advanced** |
 
 Read the `Task Description Section` to know more about the tasks.
 
@@ -103,3 +103,20 @@ Here are some list of ideas which you can implement
 4. Countdown timer
 5. A Text Editor with syntax highlighting (Why not ^.^)
 
+## Task 5
+
+This week's task is to play around with APIs.
+
+You can build any cool project that you can think of :D
+
+Here are some ideas - 
+
+1. Programming Quotes - Let's make it - https://programming-quotes-api.herokuapp.com/
+2. Pokedex - http://madhavbahl.tech/react-pokedex/
+3. Startup name generator - http://madhavbahl.tech/name-startup/
+4. GitHub Profile Analyzer - http://madhavbahl.tech/GitHub-Profile-Searcher/
+5. Wether Forecast
+6. News App
+And so on...
+
+See the lecture resources for Task 5 - [/task5_template](./task5_template/README.md)

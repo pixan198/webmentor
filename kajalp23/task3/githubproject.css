@@ -1,0 +1,26 @@
+body{
+
+	padding: 0;
+    background-image: url('kajal123.jpg');
+    display: block;
+    margin: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family:tisa;
+}
+
+p{
+	font-size: 50px;
+	font-weight:400;
+	padding-top: 300px;
+	padding-left: 700px;
+	font-family:tisa;
+	color:	red;
+	text-shadow: 3px 3px 3px black; 
+}
+li{
+	padding-left: 250px;
+}
+.navbar-brand{
+	padding-left: 200px;
+}

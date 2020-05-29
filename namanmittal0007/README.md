@@ -5,5 +5,5 @@
 
 Name: Naman Mittal
 Email: namanmittal0007@gmail.com
-GitHub: https://github.com/Namanmittal0007
-LinkedIn: https://www.linkedin.com/in/namanmittal0007
+GitHub: namanmittal0007
+LinkedIn: namanmittal0007

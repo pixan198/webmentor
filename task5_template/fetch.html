@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programming Quote</title>
+    <style>
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            color: white;
+            background-color: #5c2a9d;
+            text-align: center;
+            width: 97%;
+            height: 97vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+        }
+
+        .card {
+            background-color: #f6d743;
+            border: 1px solid #120136;
+            border-radius: 5px;
+            padding: 10px;
+            backface-visibility: hidden;
+            transform: translateZ(0);
+            transition: transform 0.25s ease-out;
+            margin: 10px;
+            padding: 20px;
+            width: 360px;
+            color: #120136;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <h1>Random Programming Quote</h1>
+
+    <div class="container">
+        <div class="card" id="response"></div>
+    </div>
+    
+    <script src="./fetch.js"></script>
+</body>
+</html>

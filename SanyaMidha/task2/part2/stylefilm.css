@@ -1,0 +1,64 @@
+*
+{
+    margin: 0;
+    padding: o;
+}
+html,body{
+
+}
+body{
+    background: #34495e;
+}
+.container
+{
+    width: 400px;
+    height: 400px;
+    background: url(pic1.jfif);
+    position: relative;
+    margin-left: 50%;
+    margin-top: 25%;
+    transform: translate(-50%,-50%);
+    perspective: 1000px;
+    
+}
+.cover
+{
+    width: 500px;
+    height: 415px;
+    position: absolute;
+    left: 40px;
+    background-color: #345b8c;
+    transform: rotateY(20deg);
+    transform-style: preserve-3d;
+    transform-origin: left;
+    transition: all .5s ease-in;
+}
+.container:hover .cover{
+    transform: rotateY(-180deg);
+}
+figure{
+    margin: 0;
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+figure.front
+{
+    background: url(pic2.jfif);
+}
+figure.back
+{
+    background: teal;
+    transform: rotateY(180deg);
+}
+p{
+    color: black;
+    font-family: monospace;
+}
+h1{
+    text-shadow: 5px 5px 10px black;
+    color: tomato;
+    font-family: tahoma;
+}
